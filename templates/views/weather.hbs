@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {{>headlink}}
+    <link rel="stylesheet" href="/css/weathet.css">
+    <title>Weather</title>
+</head>
+<body>
+    {{>nav}}
+
+    <section class="main">
+        <form action="" class="form">
+            <input type="text" value="" class="cityInput" placeholder="enter city name...">
+            <button class="searchBtn">Search</button>
+        </form>
+        <div class="display-cont">
+            <div class="time-date">
+                <span class="date">Tue, 30 Jan</span>
+                <span class="time">04:50 AM</span>
+            </div>
+            <div class="city">Get the output here</div>
+            <div class="weather">
+                <span class="temp"></span>
+                <span class="sky"></span>
+            </div>
+        </div>
+
+
+    </section>
+
+
+
+    {{>footer}}
+    <script src="/js/script.js"></script>
+    <script src="/js/weathrt.js"></script>
+
+</body>
+</html>

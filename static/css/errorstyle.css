@@ -1,0 +1,42 @@
+.error-cont{
+    display: flex;
+    flex-direction: column;
+    min-height: 90vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.error-cont h1{
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: #3498db;
+}
+
+.error-cont p {
+    font-size: 1.4rem;
+    color: rgb(51, 51, 51);
+}
+
+
+.error-cont a{
+    font-size: 1.5rem;
+    text-decoration: none;
+    margin-top: .8em;
+    padding: .4em;
+    color: rgb(251, 251, 251);
+    background-color: #3498db;
+    border-radius: 5em;
+}
+
+.error-cont a:hover{
+    background-color: transparent;
+    color: #3498db;
+    border: 1px solid #3498db;
+}
+
+
+
+
+
+
